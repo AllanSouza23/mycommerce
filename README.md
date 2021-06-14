@@ -9,8 +9,7 @@
 
 <h2>Quem está por trás?</h2>
 
-<p >Allan Souza - allanronaldo95@gmail.com </p>
-<p >Atuou em: </p>
-
-<p >Michelle Luz Rodrigues -  </p>
-<p >Atuou em  </p>
+<p >Allan Souza - allanronaldo95@gmail.com
+<br>Atuou em: 
+<br>Michelle Luz Rodrigues - 
+<br>Atuou em  </p>
