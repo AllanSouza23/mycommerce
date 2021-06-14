@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body .container {
+  background-color: #EFF;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+
+body .container .menu {
+  background-image: url("../img/banner.png");
+  height: 350px;
+}
+
+body .container .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .menu ul li {
+  margin-left: 50px;
+}
+
+body .container .menu ul li:first-child {
+  margin-right: 500px;
+  margin-left: 0;
+}
+
+body .container .linkText {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #EFF;
+}
+
+body .container .linkText:hover {
+  color: #E9A91C;
+}
+
+body .container .conteudo {
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-columns: 2;
+          columns: 2;
+}
+
+body .container .paragrafo {
+  text-align: justify;
+  text-indent: 40px;
+  font-size: 1.1em;
+}
+
+body .container .texto {
+  font-size: 1.1em;
+}
+
+body .container .footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #222;
+  color: #EFF;
+}
+/*# sourceMappingURL=main.css.map */
