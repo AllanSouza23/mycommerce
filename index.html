@@ -11,12 +11,28 @@
 <body>
   <header>
     <aside>
-      <nav class="nav bg-dark ">
-        <a class="m-auto menu link" aria-current="page" href="#">Loja</a>
-        <a class="m-auto menu link" href="#">Quem Somos</a>
-        <a class="m-auto menu link" href="#">Contato</a>
-        <a class="mx-auto" href="#"><img src="img/imagemCarrinho.png" alt=""></a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav m-auto menu">
+            <li class="nav-item menu px-5">
+              <a class="link menu" aria-current="page" href="#">Loja</a>
+            </li>
+            <li class="nav-item menu px-5">
+              <a class="link menu" href="quemsomos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item menu px-5">
+              <a class="link menu" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text">
+          <a class="mx-auto" href="#"><img src="img/imagemCarrinho.png" alt=""></a>
+        </span>
       </nav>
+
       <div class="banner">
         <h1 class="tituloPrincipal">NO SEU PÉ</h1>
       </div>
@@ -24,7 +40,14 @@
   </header>
   <main>
     <div class="container">
-      <img src="img/freteeparcela.png" alt="Frete Grátis, Envio para todo o Brasil, Parcelas em até 12 vezes sem juros">
+      <img src="img/freteeparcela.png" class="img-fluid" alt="Frete Grátis, Envio para todo o Brasil, Parcelas em até 12 vezes sem juros">
+      <div id="filtro">
+        <select name="filtro" id="filtroProdutos" onchange="exibirProdutos();">
+          <option value="Todos">Todos</option>
+          <option value="Tenis">Tênis</option>
+          <option value="Sapatos">Sapatos</option>
+        </select>
+      </div>
       <div class="row mt-5 mb-5" id="produtos"></div>
     </div>
   </main>
@@ -32,7 +55,8 @@
     <div class="bg-dark footer">
       <p class="text-light">Site desenvolvido por:</p>
       <a href="https://github.com/michelleluzrodrigues" target="_blank" class="link">Michelle Rodrigues</a><br>
-      <a href="https://github.com/AllanSouza23" target="_blank" class="link">Allan Souza</a>
+      <a href="https://github.com/AllanSouza23" target="_blank" class="link mb-5">Allan Souza</a>
+      <p class="mt-5 text-light">Imagens retiradas de: <a class="link" href="https://pt.vecteezy.com/fotos-gratis/sapato">Sapato Fotos de banco de imagens por Vecteezy</a></p>
     </div>
   </footer>
 
