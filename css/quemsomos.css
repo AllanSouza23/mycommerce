@@ -41,4 +41,14 @@ body .footer {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/*# sourceMappingURL=main.css.map */
+
+.paragrafo {
+  font-size: 1.1em;
+  text-indent: 40px;
+  text-align: justify;
+}
+
+main {
+  background-image: url("../img/fundo-quemsomos.png");
+}
+/*# sourceMappingURL=quemsomos.css.map */
