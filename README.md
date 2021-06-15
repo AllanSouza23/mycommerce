@@ -7,9 +7,6 @@
  
 <h2 >Quem é a “No seu pé”?</h2>
 
-<h2 align="center" >Quem é a “No seu pé”?</h2>
-
-
 <p align="justify"  > No seu pé é uma loja virtual (e-commerce) voltado ao mercado de calçados, fundada no ano de 2021.</p>
 
 <h2>Quem está por trás?</h2>
