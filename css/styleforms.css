@@ -1,0 +1,49 @@
+main {
+    margin-bottom: 20px;
+}
+
+.font_2 {
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 62px
+}
+
+.color_18 {
+    color: dodgerblue;
+}
+
+.espaco {
+    letter-spacing: -0.05em
+}
+
+.backcolor-15 {
+    background-color: black;
+}
+
+.alinhaform {
+    align-self: start;
+}
+
+.formulario {
+    height: auto;
+    width: 489px
+}
+
+.backgroundform1 {
+    background-color: #d5e7eb;
+    height: 350px;
+}
+.backgroundform2{
+    background-color: black;
+    height: 190px;
+    bottom: 0;
+}
+.caixatexto{
+    align-items: center;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    height: 530px;
+    width: 100%;
+}
