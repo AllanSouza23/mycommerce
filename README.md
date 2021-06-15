@@ -15,6 +15,6 @@
 <h2>Quem está por trás?</h2>
 
 <p >Allan Souza - allanronaldo95@gmail.com
-<br>Atuou em: 
+<br>Atuou em: Criação do repositorio, pagina index e quem somos com suas estilizações, criação do filtro de produtos em javascript
 <br>Michelle Luz Rodrigues - michellerodrigues268@gmail.com
-<br>Atuou em  </p>
+<br>Atuou em: Criação do Readme.md, resolução das pull requests e merge na branch main, criação da página de contato e de sua estilização </p>
