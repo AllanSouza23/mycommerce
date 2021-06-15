@@ -14,12 +14,21 @@ body .banner {
   height: 350px;
 }
 
-body .banner .tituloPrincipal {
-  text-align: center;
-  font-size: 5em;
-  padding-top: 150px;
-  font-weight: 900;
+@media (min-width: 767px) {
+  body .banner .tituloPrincipal {
+    font-size: 5em;
+    padding-top: 130px;
+    font-weight: 900;
+  }
 }
+@media (max-width: 766px) {
+  body .banner .tituloPrincipal {
+    padding-top: 130px;
+    font-size: 3em;
+    font-weight: 600;
+  }
+}
+
 
 body .link {
   text-decoration: none;
