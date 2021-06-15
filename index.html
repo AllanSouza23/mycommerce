@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bem-vindo ao MyCommerce</title>
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
   <div class="container-">
@@ -18,11 +19,38 @@
             <li><a href="#" class="linkText">Quem Somos</a></li>
             <li><a href="#" class="linkText">Cadastro</a></li>
           </ul>
-        </nav>
-      </aside>
-    </header>
-    <main class="conteudo">
-      <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vero cum consectetur dicta, esse nemo perferendis, fuga praesentium voluptas veniam eligendi optio sequi! Asperiores facere illum provident repudiandae suscipit nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, aspernatur incidunt porro officiis recusandae voluptatem ullam, vel debitis quasi culpa sit voluptas? Odit atque, recusandae nobis tenetur et debitis veniam.</p>
+        </div>
+        <span class="navbar-text">
+          <a class="mx-auto" href="#"><img src="img/imagemCarrinho.png" alt=""></a>
+        </span>
+      </nav>
+
+      <div class="banner">
+        <h1 class="tituloPrincipal">NO SEU PÉ</h1>
+      </div>
+    </aside>
+  </header>
+  <main>
+    <div class="container">
+      <img src="img/freteeparcela.png" class="img-fluid" alt="Frete Grátis, Envio para todo o Brasil, Parcelas em até 12 vezes sem juros">
+      <div id="filtro">
+        <select name="filtro" id="filtroProdutos" onchange="exibirProdutos();">
+          <option value="Todos">Todos</option>
+          <option value="Tenis">Tênis</option>
+          <option value="Sapatos">Sapatos</option>
+        </select>
+      </div>
+      <div class="row mt-5 mb-5" id="produtos"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="bg-dark footer">
+      <p class="text-light">Site desenvolvido por:</p>
+      <a href="https://github.com/michelleluzrodrigues" target="_blank" class="link">Michelle Rodrigues</a><br>
+      <a href="https://github.com/AllanSouza23" target="_blank" class="link mb-5">Allan Souza</a>
+      <p class="mt-5 text-light">Imagens retiradas de: <a class="link" href="https://pt.vecteezy.com/fotos-gratis/sapato">Sapato Fotos de banco de imagens por Vecteezy</a></p>
+    </div>
+  </footer>
 
       <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vero cum consectetur dicta, esse nemo perferendis, fuga praesentium voluptas veniam eligendi optio sequi! Asperiores facere illum provident repudiandae suscipit nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, aspernatur incidunt porro officiis recusandae voluptatem ullam, vel debitis quasi culpa sit voluptas? Odit atque, recusandae nobis tenetur et debitis veniam.</p>
     </main>
@@ -34,5 +62,6 @@
   </div>
   
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
